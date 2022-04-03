@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,900&family=Poppins:ital,wght@0,200;0,400;0,600;1,900&family=Source+Sans+Pro:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+/* code::after {
+  content: "\2190 Click for Copy!";
+  color: #8785a2;
+} */
+code:hover {
+  cursor: pointer;
+}
+h1 {
+  font-family: "Nunito", sans-serif;
+  color: rgb(135, 133, 162);;
+  font-size: 32px;
+  font-weight: 700;
+}
+h2 {
+  font-weight: 600;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+}
+p {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+header h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(135, 133, 162);
+  width: 100%;
+  margin: 40px auto;
+}
+/*---Color Section---*/
+.colorContainer {
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  align-items: center;
+  margin: 50px 0;
+  max-width: 300px;
+  height: 600px;
+  text-align: center;
+}
+.colorContainer h1 {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  color: rgb(135, 133, 162);
+  background-color: rgba(135, 133, 162, 0.1);
+  width: 100%;
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.pallet {
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+.pallet ul {
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.pallet li {
+  width: 100%;
+  height: 50px;
+}
+.pallet li.c7pallet {
+  background-color: rgb(255, 199, 199);
+}
+.pallet li.e2pallet {
+  background-color: rgb(255, 226, 226);
+}
+.pallet li.f6pallet {
+  background-color: rgb(246, 246, 246);
+}
+.pallet li.a2pallet {
+  background-color: rgb(135, 133, 162);
+}
+.ball ul {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.ball li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+.ball li.c7ball {
+  background-color: rgb(255, 199, 199);
+}
+.ball li.e2ball {
+  background-color: rgb(255, 226, 226);
+}
+.ball li.f6ball {
+  background-color: rgb(246, 246, 246);
+}
+.ball li.a2ball {
+  background-color: rgb(135, 133, 162);
+}
+.hex ul {
+  width: 100%;
+  margin-top: 30px;
+  display: inline-flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.hex li {
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: "Source Sans Pro", sans-serif;
+}
+.rgb ul {
+  margin-top: 5px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+.rgb li {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+/*---Fonts Section---*/
+.fontContainer {
+  align-items: center;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  margin: 50px 5px;
+  max-width: 800px;
+}
+.fontContainer h1 {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  color: rgb(135, 133, 162);
+  background-color: rgba(135, 133, 162, 0.1);
+  width: 100%;
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.fontContainer h3 {
+  background-color: rgb(255, 226, 226);
+}
+.fontContainer p {
+  background-color: rgb(246, 246, 246);
+}
+.ltrfonts code,
+.rtlfonts code {
+  background-color: rgb(255, 199, 199);
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.8;
+}
+.splitsection {
+  display: inline-flex;
+}
+.sourcecode h3 {
+  text-align: center;
+  width: 100%;
+}
+.sourcecode {
+  font-family: "Source Sans Pro", sans-serif;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.8);
+  text-align: left;
+}
+.nunito h3 {
+  text-align: center;
+  width: 100%;
+}
+.nunito {
+  line-height: 1.5;
+  font-family: "Nunito", sans-serif;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+.poppins h3 {
+  text-align: center;
+  width: 100%;
+}
+.poppins {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.8);
+  border-left: 0.5px solid rgba(0, 0, 0, 0.8);
+  text-align: justify;
+}
+.vazirmath h3 {
+  text-align: center;
+  width: 100%;
+}
+.vazirmath p {
+  text-align: right;
+  font-family: "Vazirmatn", sans-serif;
+  
+}
+/*---Text Styles Section---*/
+.stylesContainer {
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  align-items: center;
+  margin: 50px 5px;
+  max-width: 600px;
+  height: 600px;
+  text-align: center;
+}
+.stylesContainer h1.title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: rgb(135, 133, 162);
+  background-color: rgba(135, 133, 162, 0.1);
+  width: 100%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+.stylesContainer ul li {
+  background-color: rgb(246, 246, 246);
+  text-align: left;
+}
+.stylesContainer h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  color: rgb(135, 133, 162);
+  background-color: rgb(255, 226, 226);
+  width: 100%;
+  margin: 0 auto;
+}
+.stylesContainer h2 {
+  font-weight: 600;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+.stylesContainer h3 {
+  font: weight 500px;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+/*---Button Section---*/
+.buttContainer {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  align-items: center;
+  margin: 50px 5px;
+  text-align: center;
+}
+.buttContainer h1 {
+    width: 100%;
+  background-color: rgb(246, 246, 246);
+} 
+.buttContainer h2 {
+    width: 100%;
+    background-color: rgb(255, 226, 226);
+   
+} 
+.flatbutt {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(135, 133, 162);
+    text-align: center;
+    width: 50%;
+    border: 1px solid rgb(135, 133, 162, 0.5);
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgb(255, 199, 199);
+    cursor: pointer;
+    transition: background-color 0.5s, border 0.2s;
+}
+.flatbutt:hover {
+  border: 2px solid rgba(135, 133, 162, 0.8);
+  background-color: rgb(255, 226, 226);;
+}
+.skebutt {
+    width: 50%;
+  font-size: 18px;
+    border: 2px solid #b16d6d;
+    border-radius: 5px;
+    color: #8785A2;
+    text-shadow: 0 -1px #006bb3;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+    background: #FFE2E2D1;
+    background: linear-gradient(#FFE2E2D1, #FFC7C7);
+    cursor: pointer;
+    
+}
+.skebutt:hover {
+   box-shadow: 0px -2px -2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+   background: #FFE2E2D1;
+   background: linear-gradient(#FFE2E2D1, #FFC7C7);
+  border-color: #064f06;
+}
